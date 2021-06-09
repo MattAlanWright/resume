@@ -1,0 +1,32 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: Masters of Computer Science
+  icon: fa-graduation-cap
+  timeframe: 2018-2020
+  institution:
+    name: Dalhousie University
+    url: "https://www.dal.ca/"
+  publications: #(optional)
+  - title: Providing Real-Valued Actions for Tangled Program Graphs Under the CartPole Benchmark.
+    url: "https://web.cs.dal.ca/~mheywood/Thesis/MWright_MCS.pdf"
+
+- name: B.Eng. in Electrical and Computer Engineering
+  icon: fa-school
+  timeframe: 2011-2016
+  institution:
+    name: Dalhousie University
+    url: "https://www.dal.ca/"
+  grade: #(optional)
+    scale: CGPA
+    achieved: 4.09
+    outOf: 4.3

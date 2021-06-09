@@ -1,0 +1,61 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Software Engineer
+# your company information
+company:
+  name: 3Flares Technologies Inc.
+  url: "https://www.3flares.com"
+
+# your resume. this file path should be relative to you "static" directory
+resume: "files/resume.pdf"
+
+# a summary about you
+summary: 'Detail-oriented and highly focused systems software engineer with experience
+developing robust and maintainable production code. Lifetime learner and versatile
+thinker with experience across many software domains and a proven ability to dive deep
+into new problems.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "matt.alan.wright@gmail.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/mattalanwright"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/matthew-wright-6b4196144/"
+
+- name: Blog
+  icon: "fas fa-pen-alt"
+  url: "https://mattalanwright.github.io/"
+
+- name: Thesis
+  icon: "fas fa-graduation-cap"
+  url: "https://web.cs.dal.ca/~mheywood/Thesis/MWright_MCS.pdf"
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+- name: Leadership
+  percentage: 100
+  color: blue
+- name: Team Work
+  percentage: 100
+  color: yellow
+- name: Lifelong Learner
+  percentage: 100
+  color: green

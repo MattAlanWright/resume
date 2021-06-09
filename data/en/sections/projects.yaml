@@ -1,0 +1,35 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# your projects
+projects:
+- name: Linear Genetic Programming
+  role: Developer
+  repo: https://github.com/MattAlanWright/python-lgp
+  summary: A pure Python implementation of a linear genetic programming environment. Out of the box, this can evolve agents that can beat CartPole.
+  tags: ["professional", "machine-learning"]
+
+- name: Python TPG
+  role: Developer
+  repo: https://github.com/MattAlanWright/python-tpg
+  summary: A pure Python implementation of TPG, a state-of-the-art genetic programming reinforcement learning algorithm.
+  tags: ["professional", "machine-learning"]
+
+- name: PyTorch REINFORCE
+  role: Developer
+  repo: https://github.com/MattAlanWright/pytorch-reinforce
+  summary: An implementation of REINFORCE written in PyTorch. A full explanation of this implementation is available on my blog!
+  tags: ["professional", "machine-learning"]
+
+- name: Blog
+  role: Author
+  url: "https://mattalanwright.github.io/"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: The beginnings of a technical blog.
+  tags: ["hobby", "machine-learning"]

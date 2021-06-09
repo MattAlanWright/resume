@@ -1,0 +1,99 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: 3Flares Technologies Inc.
+    url: "https://www.3flares.com"
+    location: Halifax, NS
+    # company overview
+    overview: 3Flares is a custom hardware and software design firm, specialzing in embedded hardware and firmware.
+  positions:
+  - designation: Software Engineer
+    start: Feb 2021
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Design and develop FreeRTOS-based embedded software using C and IAR.
+    - Analyze, debug, maintain and add features to multiple embedded system designs.
+
+
+- company:
+    name: 4DNav LLC
+    url: "http://www.4dnav.com/"
+    location: Houston, TX
+    overview: 4DNav provides innovative modern offshore software packages for the oil and gas industry world-wide.
+  positions:
+  - designation: Software Engineer
+    start: Nov 2020
+    end: Mar 2021
+    responsibilities:
+    - Developed a custom visualization tool for real-time, real-world, and accurately positioned 3D display of offshore drilling equipment using the Unity game engine.
+
+
+- company:
+    name: Daxsonics Ultrasound Inc.
+    url: "http://www.daxsonics.com/"
+    location: Halifax, NS
+    overview: Daxsonics provides custom ultrasound solutions, from transducer design to high-speed electronics, firmware and software.
+  positions:
+  - designation: Software Engineer
+    start: Oct 2019
+    end: Feb 2021
+    responsibilities:
+    - Developed firmware for a high voltage, high frequency pulser. Firmware written in C for an ATSAMD21 Microchip microcontroller, including hardware controls and user interface via SCPI over USB.
+    - Worked on a team of two to design and implement a GUI in NanoGUI for a high framerate ultrasound imaging system, including the UI and the USB 3.0 video streaming interface to the imaging hardware.
+
+
+- company:
+    name: Alentic Microscience Inc.
+    url: "http://www.alentic.com/"
+    location: Halifax, NS
+    overview: Alentic is a driven collection of scientists, technologist and developers working to empower clinical diagnosticians and frontline medical workers.
+  positions:
+  - designation: Software Engineer
+    start: Feb 2018
+    end: Sep 2019
+    responsibilities:
+    - Designed and implemented neural network applications using PyTorch, TensorFlow, and TensorRT.
+    - Developed and deployed an HTTP server and REST API in C using libmicrohttpd on an NVidia single-board-computer.
+    - Created an iOS app in Swift and Xcode to remotely control custom research hardware.
+    - Contributed to a custom Linux kernel build for an NVidia single-board-computer.
+
+
+- company:
+    name: Daxsonics Ultrasound Inc.
+    url: "http://www.daxsonics.com/"
+    location: Halifax, NS
+    overview: Daxsonics provides custom ultrasound solutions, from transducer design to high-speed electronics, firmware and software.
+  positions:
+  - designation: Software Engineer
+    start: Sep 2014
+    end: Feb 2018
+    responsibilities:
+    - Automated electrical and visual test and measurement procedures for ultrasound transducer production.
+    - Worked remotely with the client and contractors on production C++ for a class II ultrasound medical device (10,000s LOC project).
+    - Implemented vectorized, high-speed C++ module to process high-frequency ultrasound signals and measure transducer output power.
+    - Led discussions with engineers from multiple disciplines and companies to determine software designs.
+
+
+- company:
+    name: Ultra Electronics Maritime Systems
+    url: "https://www.ultra.group/our-business-units/maritime/"
+    location: Dartmouth, NS
+    overview: Ultra Electronics delivers leading multi-mission solutions to protect our navies.
+  positions:
+  - designation: Embedded Systems Engineer (Co-op student)
+    start: Jan 2014
+    end: Apr 2014
+    responsibilities:
+    - Designed and implemented an embedded system used to process and transmit digital compass data, including hardware and software.

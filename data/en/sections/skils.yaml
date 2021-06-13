@@ -11,9 +11,9 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: C++
+- name: C/C++
   logo: "/images/sections/skills/c++.png"
-  summary: "Extensive programming experience in C and C++11(+)"
+  summary: "Extensive programming experience in C and C++11(+). Comfortable working with the STL and modern language additions."
 
 - name: C#
   logo: "/images/sections/skills/csharp.png"
@@ -21,11 +21,15 @@ skills:
 
 - name: Embedded Systems
   logo: "/images/sections/skills/chip.png"
-  summary: "Experience designing and implementing embedded systems in C. From bare metal programming to FreeRTOS designs on both Microchip SAMD and STM32 parts, to NVIDIA Jetson SoCs running full Linux."
+  summary: "Experience designing and implementing embedded systems in C. From bare metal programming to FreeRTOS designs on both Microchip SAMD and STM32 ARM microcontrollers, to NVIDIA Jetson SoCs running full Linux."
 
 - name: Python
   logo: "/images/sections/skills/python.png"
-  summary: "Deep programming experience in Python 2 and 3 including data analysis using numpy, Pandas, matplotlib and sklearn, custom neural net development using TensorFlow and PyTorch, GUI design in PyQt and NanoGUI and specialized genetic programming reinforcement learning algorithm implementation in my academic work."
+  summary: "Deep programming experience in Python 2 and 3, from GUI design in PyQt and NanoGUI to data analysis using numpy, Pandas, matplotlib and sklearn."
+
+- name: Machine Learning
+  logo: "/images/sections/skills/ml.png"
+  summary: "Experience with custom neural net development using TensorFlow and PyTorch. Ground-up implementation of a state-of-the-art genetic programming reinforcement learning algorithm in academic research."
 
 - name: Linux
   logo: "/images/sections/skills/linux.png"
